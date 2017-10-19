@@ -1,0 +1,21 @@
+{
+  "id": 40,
+  "name": "Gebahard Yisra'el",
+  "photo": "/assets/images/photographer-104.jpg",
+  "weight": 0,
+  "about": "<p>Nullam imperdiet mauris lorem, pulvinar consectetur sem venenatis vel. Suspendisse orci nulla, pellentesque vel consequat id, tincidunt nec sem. Quisque pellentesque leo sit amet eros suscipit molestie. Nullam et metus varius, condimentum erat ac, placerat nisl. Duis rhoncus egestas justo ac condimentum. Donec imperdiet lectus eleifend, tempus felis sed, egestas nisl. Duis neque ex, condimentum eget metus aliquet, interdum pharetra ligula. Sed ultrices risus ac efficitur finibus. Vivamus vehicula tortor ac enim iaculis ullamcorper. Mauris mattis arcu diam. Nam finibus fermentum orci vitae elementum. Pellentesque sed dui pretium neque semper pharetra sit amet non dolor. Vivamus congue commodo est euismod ultricies.</p><p>Nam at fringilla nibh. Nunc vehicula dignissim vulputate. Integer sed gravida eros, ut elementum justo. Praesent eget bibendum diam, sit amet venenatis nulla.</p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-4.jpg",
+      "photo_title": "Phasellus gravida",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 100
+    },
+    "2": {
+      "photo": "/assets/images/photo-8.jpg",
+      "photo_title": "Quisque molestie tortor",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 1
+    }
+  }
+}

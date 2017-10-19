@@ -1,0 +1,69 @@
+{
+  "id": 24,
+  "name": "John Doe",
+  "photo": "/assets/images/photographer-100.jpg",
+  "weight": 100,
+  "about": "<p>Nunc a tortor ac leo dictum mollis ut id sapien. Suspendisse rhoncus diam ut enim ullamcorper, vitae molestie odio lacinia.</p><p>Nam tempus elementum ante nec porta. Suspendisse in justo auctor, lobortis nunc tempor, finibus mauris. Proin interdum, nisi id eleifend facilisis, nunc diam pretium risus, sed tincidunt erat nisl sit amet lorem. Donec in egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vulputate sodales libero non pretium. Quisque vel auctor libero. Fusce tincidunt sollicitudin massa. Integer metus nisl, feugiat ut tempor a, cursus sit amet magna. Cras commodo scelerisque massa, eget venenatis libero tincidunt ornare.</p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-1.jpg",
+      "photo_title": "Phasellus gravida",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 100
+    },
+    "2": {
+      "photo": "/assets/images/photo-2.jpg",
+      "photo_title": "Curabitur massa",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 1
+    },
+    "3": {
+      "photo": "/assets/images/photo-3.jpg",
+      "photo_title": "Nullam nisi libero",
+      "photo_description": "Donec in egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vulputate sodales libero non pretium. Quisque vel auctor libero. Fusce tincidunt sollicitudin massa. Integer metus nisl, feugiat ut tempor a, cursus sit amet magna.",
+      "weight": -10
+    },
+    "4": {
+      "photo": "/assets/images/photo-4.jpg",
+      "photo_title": "Aliquam molestie",
+      "photo_description": "Aenean fermentum mattis felis. Aenean sit amet ex congue orci dignissim suscipit vel volutpat ante.",
+      "weight": 1
+    },
+    "5": {
+      "photo": "/assets/images/photo-5.jpg",
+      "photo_title": "Faucibus",
+      "photo_description": "Integer sit amet sapien ut eros porttitor facilisis. Quisque condimentum laoreet arcu sed ultrices. Suspendisse nec mattis est, non porttitor massa. Sed rhoncus sollicitudin eros, ac consectetur dui molestie vitae. Nam ut sapien dolor. Quisque tempor congue viverra. Ut eget sodales mi.",
+      "weight": 1
+    },
+    "6": {
+      "photo": "/assets/images/photo-6.jpg",
+      "photo_title": "Elementum rhoncus",
+      "photo_description": "Donec eu arcu eu odio pulvinar ultricies. Duis fringilla eu nulla sit amet iaculis. Sed cursus, arcu porta hendrerit commodo, lectus magna luctus velit, interdum vehicula elit quam vel leo.",
+      "weight": 1
+    },
+    "7": {
+      "photo": "/assets/images/photo-7.jpg",
+      "photo_title": "Morbi",
+      "photo_description": "Suspendisse rhoncus diam ut enim ullamcorper, vitae molestie odio lacinia. Nam tempus elementum ante nec porta.",
+      "weight": 1
+    },
+    "8": {
+      "photo": "/assets/images/photo-8.jpg",
+      "photo_title": "Vestibulum",
+      "photo_description": "Cras commodo scelerisque massa, eget venenatis libero tincidunt ornare.",
+      "weight": 1
+    },
+    "9": {
+      "photo": "/assets/images/photo-9.jpg",
+      "photo_title": "Donec vitae",
+      "photo_description": "",
+      "weight": 1
+    },
+    "10": {
+      "photo": "/assets/images/photo-10.jpg",
+      "photo_title": "Suspendisse",
+      "photo_description": "Vestibulum id turpis sed arcu eleifend faucibus. Phasellus eu nibh velit.",
+      "weight": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": 62,
+  "name": "Randell Geir",
+  "photo": "/assets/images/photographer-108.jpg",
+  "weight": -10,
+  "about": "<p>Maecenas urna dolor, porttitor quis ante fringilla, rutrum volutpat elit. Cras sit amet felis auctor mauris tincidunt fringilla et vitae urna. Nam gravida mauris non sapien mollis facilisis. Pellentesque sit amet nunc ultricies, mattis tortor in, suscipit neque. Vivamus convallis mauris quis neque iaculis, eu tempor mi ornare. Phasellus vitae magna non metus cursus venenatis at vel felis. Integer eu felis vel tortor malesuada feugiat sit amet at turpis. Cras a mauris pretium, vulputate erat a, porta ex.</p><p>Morbi in egestas neque. Proin finibus pellentesque posuere. Suspendisse maximus lorem id malesuada aliquam. Maecenas ultricies leo sed risus viverra volutpat.</p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-7.jpg",
+      "photo_title": "Donec",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 0
+    },
+    "2": {
+      "photo": "/assets/images/photo-8.jpg",
+      "photo_title": "Vivamus",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 0
+    }
+  }
+}

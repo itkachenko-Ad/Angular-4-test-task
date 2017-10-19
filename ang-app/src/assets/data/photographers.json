@@ -1,0 +1,62 @@
+{
+  "24": {
+    "id": 24,
+    "name": "John Doe",
+    "photo": "/assets/images/photographer-100.jpg",
+    "weight": 100
+  },
+  "30": {
+    "id": 30,
+    "name": "Manuel Venkat",
+    "photo": "/assets/images/photographer-101.jpg",
+    "weight": 0
+  },
+  "31": {
+    "id": 31,
+    "name": "Svantepolk Brijesh",
+    "photo": "/assets/images/photographer-102.jpg",
+    "weight": 0
+  },
+  "32": {
+    "id": 32,
+    "name": "Sofronio Orville",
+    "photo": "/assets/images/photographer-103.jpg",
+    "weight": 0
+  },
+  "40": {
+    "id": 40,
+    "name": "Gebahard Yisra'el",
+    "photo": "/assets/images/photographer-104.jpg",
+    "weight": 0
+  },
+  "45": {
+    "id": 45,
+    "name": "Lester Gotama",
+    "photo": "/assets/images/photographer-105.jpg",
+    "weight": 0
+  },
+  "50": {
+    "id": 50,
+    "name": "Pancras Zarathushtra",
+    "photo": "/assets/images/photographer-106.jpg",
+    "weight": 10
+  },
+  "60": {
+    "id": 60,
+    "name": "Philokrates Tychon",
+    "photo": "/assets/images/photographer-107.jpg",
+    "weight": 1
+  },
+  "62": {
+    "id": 62,
+    "name": "Randell Geir",
+    "photo": "/assets/images/photographer-108.jpg",
+    "weight": -10
+  },
+  "65": {
+    "id": 65,
+    "name": "Sandip Ravindra",
+    "photo": "/assets/images/photographer-109.jpg",
+    "weight": 0
+  }
+}

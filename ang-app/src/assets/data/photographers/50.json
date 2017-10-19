@@ -1,0 +1,69 @@
+{
+  "id": 50,
+  "name": "Pancras Zarathushtra",
+  "photo": "/assets/images/photographer-106.jpg",
+  "weight": 10,
+  "about": "<p>Vestibulum hendrerit nunc eget mauris gravida ornare. Duis mattis fermentum felis, et posuere sapien hendrerit quis. Nullam hendrerit, leo quis vehicula sodales, purus sem egestas nisi, eu ullamcorper dolor metus id enim. Integer non nisi non purus aliquam ultricies vitae quis dolor. Suspendisse et augue nisi. Mauris sodales, nulla ut blandit malesuada, nunc neque lacinia diam, in aliquam metus est vitae urna.</p><p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam massa tortor, ultrices id urna nec, dapibus dictum ante. Aenean ante odio, mollis at ultricies id, posuere in turpis. Sed in metus eget lorem tristique volutpat quis sit amet elit. Aliquam imperdiet neque sed mi semper, id vulputate arcu facilisis. Donec urna augue, maximus eu rutrum non, ultrices a velit. Nullam est nisl, luctus mattis lorem vel, mattis consequat dui.</p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-4.jpg",
+      "photo_title": "Phasellus gravida",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 0
+    },
+    "2": {
+      "photo": "/assets/images/photo-7.jpg",
+      "photo_title": "Curabitur massa",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 10
+    },
+    "3": {
+      "photo": "/assets/images/photo-3.jpg",
+      "photo_title": "Nullam nisi libero",
+      "photo_description": "Donec in egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vulputate sodales libero non pretium. Quisque vel auctor libero. Fusce tincidunt sollicitudin massa. Integer metus nisl, feugiat ut tempor a, cursus sit amet magna.",
+      "weight": 0
+    },
+    "4": {
+      "photo": "/assets/images/photo-1.jpg",
+      "photo_title": "Aliquam molestie",
+      "photo_description": "Aenean fermentum mattis felis. Aenean sit amet ex congue orci dignissim suscipit vel volutpat ante.",
+      "weight": 0
+    },
+    "5": {
+      "photo": "/assets/images/photo-5.jpg",
+      "photo_title": "Faucibus",
+      "photo_description": "Integer sit amet sapien ut eros porttitor facilisis. Quisque condimentum laoreet arcu sed ultrices. Suspendisse nec mattis est, non porttitor massa. Sed rhoncus sollicitudin eros, ac consectetur dui molestie vitae. Nam ut sapien dolor. Quisque tempor congue viverra. Ut eget sodales mi.",
+      "weight": 0
+    },
+    "6": {
+      "photo": "/assets/images/photo-6.jpg",
+      "photo_title": "Elementum rhoncus",
+      "photo_description": "Donec eu arcu eu odio pulvinar ultricies. Duis fringilla eu nulla sit amet iaculis. Sed cursus, arcu porta hendrerit commodo, lectus magna luctus velit, interdum vehicula elit quam vel leo.",
+      "weight": 0
+    },
+    "7": {
+      "photo": "/assets/images/photo-2.jpg",
+      "photo_title": "Morbi",
+      "photo_description": "Suspendisse rhoncus diam ut enim ullamcorper, vitae molestie odio lacinia. Nam tempus elementum ante nec porta.",
+      "weight":0
+    },
+    "8": {
+      "photo": "/assets/images/photo-10.jpg",
+      "photo_title": "Quisque molestie tortor",
+      "photo_description": "Cras commodo scelerisque massa, eget venenatis libero tincidunt ornare.",
+      "weight": 0
+    },
+    "9": {
+      "photo": "/assets/images/photo-9.jpg",
+      "photo_title": "Donec vitae",
+      "photo_description": "",
+      "weight": 0
+    },
+    "10": {
+      "photo": "/assets/images/photo-8.jpg",
+      "photo_title": "Suspendisse",
+      "photo_description": "Vestibulum id turpis sed arcu eleifend faucibus. Phasellus eu nibh velit.",
+      "weight": 0
+    }
+  }
+}

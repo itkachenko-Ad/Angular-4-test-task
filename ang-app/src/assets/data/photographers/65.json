@@ -1,0 +1,69 @@
+{
+  "id": 65,
+  "name": "Sandip Ravindra",
+  "photo": "/assets/images/photographer-109.jpg",
+  "weight": 0,
+  "about": "<p>In hac habitasse platea dictumst. Pellentesque viverra facilisis massa, eu vulputate enim porttitor in. Nunc sit amet odio vitae tortor ullamcorper pharetra. Nulla ullamcorper ullamcorper purus, quis commodo ex varius at. Quisque pretium vehicula porttitor. Donec at scelerisque sapien. Donec sit amet nulla bibendum, gravida nibh at, sagittis tortor.</p><p>Vestibulum congue justo id sollicitudin viverra. Ut ac turpis ac magna luctus porttitor eu sed diam. Sed in lorem ac metus dapibus sollicitudin. Phasellus vel urna quis purus feugiat imperdiet eu sit amet lectus. Praesent vulputate auctor ligula ut cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-1.jpg",
+      "photo_title": "Fusce convallis ex at imperdiet",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 0
+    },
+    "2": {
+      "photo": "/assets/images/photo-2.jpg",
+      "photo_title": "Curabitur massa",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 100
+    },
+    "3": {
+      "photo": "/assets/images/photo-3.jpg",
+      "photo_title": "Nullam nisi libero",
+      "photo_description": "Donec in egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vulputate sodales libero non pretium. Quisque vel auctor libero. Fusce tincidunt sollicitudin massa. Integer metus nisl, feugiat ut tempor a, cursus sit amet magna.",
+      "weight": -10
+    },
+    "4": {
+      "photo": "/assets/images/photo-4.jpg",
+      "photo_title": "Aliquam molestie",
+      "photo_description": "Aenean fermentum mattis felis. Aenean sit amet ex congue orci dignissim suscipit vel volutpat ante.",
+      "weight": 1000
+    },
+    "5": {
+      "photo": "/assets/images/photo-5.jpg",
+      "photo_title": "Faucibus",
+      "photo_description": "Integer sit amet sapien ut eros porttitor facilisis. Quisque condimentum laoreet arcu sed ultrices. Suspendisse nec mattis est, non porttitor massa. Sed rhoncus sollicitudin eros, ac consectetur dui molestie vitae. Nam ut sapien dolor. Quisque tempor congue viverra. Ut eget sodales mi.",
+      "weight": 10000
+    },
+    "6": {
+      "photo": "/assets/images/photo-6.jpg",
+      "photo_title": "Elementum rhoncus",
+      "photo_description": "Donec eu arcu eu odio pulvinar ultricies. Duis fringilla eu nulla sit amet iaculis. Sed cursus, arcu porta hendrerit commodo, lectus magna luctus velit, interdum vehicula elit quam vel leo.",
+      "weight": 1000000
+    },
+    "7": {
+      "photo": "/assets/images/photo-7.jpg",
+      "photo_title": "Nunc vehicula ex sit amet sagittis",
+      "photo_description": "Suspendisse rhoncus diam ut enim ullamcorper, vitae molestie odio lacinia. Nam tempus elementum ante nec porta.",
+      "weight": 0
+    },
+    "8": {
+      "photo": "/assets/images/photo-8.jpg",
+      "photo_title": "Vestibulum",
+      "photo_description": "Cras commodo scelerisque massa, eget venenatis libero tincidunt ornare.",
+      "weight": -5
+    },
+    "9": {
+      "photo": "/assets/images/photo-9.jpg",
+      "photo_title": "Donec vitae",
+      "photo_description": "",
+      "weight": -44
+    },
+    "10": {
+      "photo": "/assets/images/photo-10.jpg",
+      "photo_title": "Suspendisse",
+      "photo_description": "Vestibulum id turpis sed arcu eleifend faucibus. Phasellus eu nibh velit.",
+      "weight": 0
+    }
+  }
+}

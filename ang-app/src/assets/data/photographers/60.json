@@ -1,0 +1,45 @@
+{
+  "id": 60,
+  "name": "Philokrates Tychon",
+  "photo": "/assets/images/photographer-107.jpg",
+  "weight": 1,
+  "about": "<p>Curabitur turpis orci, tempor vitae eros vitae, lacinia iaculis lacus. Nulla eros justo, egestas at porta non, ultricies ut massa.</p><p>Mauris iaculis erat et ex cursus pretium. Cras vitae risus eget magna imperdiet viverra a ut nibh. Morbi vitae risus sodales, rutrum enim eu, mattis nisl. Maecenas sit amet pharetra neque.</p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-1.jpg",
+      "photo_title": "Phasellus gravida",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 0
+    },
+    "2": {
+      "photo": "/assets/images/photo-7.jpg",
+      "photo_title": "Vestibulum eget lacus consequat, interdum",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 1
+    },
+    "3": {
+      "photo": "/assets/images/photo-3.jpg",
+      "photo_title": "Nullam nisi libero",
+      "photo_description": "Donec in egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vulputate sodales libero non pretium. Quisque vel auctor libero. Fusce tincidunt sollicitudin massa. Integer metus nisl, feugiat ut tempor a, cursus sit amet magna.",
+      "weight": 0
+    },
+    "4": {
+      "photo": "/assets/images/photo-5.jpg",
+      "photo_title": "Aliquam molestie",
+      "photo_description": "Aenean fermentum mattis felis. Aenean sit amet ex congue orci dignissim suscipit vel volutpat ante.",
+      "weight": 100
+    },
+    "5": {
+      "photo": "/assets/images/photo-4.jpg",
+      "photo_title": "Faucibus",
+      "photo_description": "Integer sit amet sapien ut eros porttitor facilisis. Quisque condimentum laoreet arcu sed ultrices. Suspendisse nec mattis est, non porttitor massa. Sed rhoncus sollicitudin eros, ac consectetur dui molestie vitae. Nam ut sapien dolor. Quisque tempor congue viverra. Ut eget sodales mi.",
+      "weight": 0
+    },
+    "6": {
+      "photo": "/assets/images/photo-6.jpg",
+      "photo_title": "Quisque molestie tortor",
+      "photo_description": "Donec eu arcu eu odio pulvinar ultricies. Duis fringilla eu nulla sit amet iaculis. Sed cursus, arcu porta hendrerit commodo, lectus magna luctus velit, interdum vehicula elit quam vel leo.",
+      "weight": 0
+    }
+  }
+}

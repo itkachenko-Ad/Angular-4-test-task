@@ -1,0 +1,57 @@
+{
+  "id": 31,
+  "name": "Svantepolk Brijesh",
+  "photo": "/assets/images/photographer-102.jpg",
+  "weight": 0,
+  "about": "<p> Cras massa odio, ultrices non turpis ut, laoreet laoreet ligula. Vestibulum sem felis, bibendum a lobortis et, eleifend eget velit. Vivamus diam turpis, lacinia sed nibh fringilla, dictum varius elit. Quisque suscipit convallis maximus. Cras sed enim commodo, porttitor ante quis, consequat ante. Etiam at dui mauris. Suspendisse ut laoreet eros, vel aliquam magna. Fusce non vehicula est.</p><p>Phasellus eu quam vulputate, interdum nisi eget, aliquam nunc. Morbi malesuada est sit amet ullamcorper lobortis. Aenean in purus ac sapien gravida venenatis ut a ex. In fermentum risus eget varius eleifend. Vivamus tincidunt tincidunt lacus. Sed quis massa maximus, hendrerit erat sed, aliquet nunc. </p>",
+  "gallery": {
+    "1": {
+      "photo": "/assets/images/photo-1.jpg",
+      "photo_title": "Phasellus gravida",
+      "photo_description": "Ut feugiat, nunc nec elementum rhoncus, lorem ex maximus velit, sed condimentum nibh dui a diam. Quisque odio turpis, pretium in turpis a, consectetur faucibus turpis.",
+      "weight": 1
+    },
+    "2": {
+      "photo": "/assets/images/photo-2.jpg",
+      "photo_title": "Curabitur massa",
+      "photo_description": "Quisque semper ut tellus eu mattis. Aliquam molestie ex faucibus, sodales justo a, tincidunt nisl.",
+      "weight": 2
+    },
+    "3": {
+      "photo": "/assets/images/photo-9.jpg",
+      "photo_title": "Nullam nisi libero",
+      "photo_description": "Donec in egestas urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras vulputate sodales libero non pretium. Quisque vel auctor libero. Fusce tincidunt sollicitudin massa. Integer metus nisl, feugiat ut tempor a, cursus sit amet magna.",
+      "weight": 3
+    },
+    "4": {
+      "photo": "/assets/images/photo-4.jpg",
+      "photo_title": "Proin",
+      "photo_description": "Aenean fermentum mattis felis. Aenean sit amet ex congue orci dignissim suscipit vel volutpat ante.",
+      "weight": 8
+    },
+    "5": {
+      "photo": "/assets/images/photo-5.jpg",
+      "photo_title": "Faucibus",
+      "photo_description": "Integer sit amet sapien ut eros porttitor facilisis. Quisque condimentum laoreet arcu sed ultrices. Suspendisse nec mattis est, non porttitor massa. Sed rhoncus sollicitudin eros, ac consectetur dui molestie vitae. Nam ut sapien dolor. Quisque tempor congue viverra. Ut eget sodales mi.",
+      "weight": 999
+    },
+    "6": {
+      "photo": "/assets/images/photo-10.jpg",
+      "photo_title": "Vivamus",
+      "photo_description": "Donec eu arcu eu odio pulvinar ultricies. Duis fringilla eu nulla sit amet iaculis. Sed cursus, arcu porta hendrerit commodo, lectus magna luctus velit, interdum vehicula elit quam vel leo.",
+      "weight": 0
+    },
+    "7": {
+      "photo": "/assets/images/photo-7.jpg",
+      "photo_title": "Quisque molestie tortor",
+      "photo_description": "Suspendisse rhoncus diam ut enim ullamcorper, vitae molestie odio lacinia. Nam tempus elementum ante nec porta.",
+      "weight": 1000
+    },
+    "8": {
+      "photo": "/assets/images/photo-8.jpg",
+      "photo_title": "Vestibulum",
+      "photo_description": "Cras commodo scelerisque massa, eget venenatis libero tincidunt ornare.",
+      "weight": 50
+    }
+  }
+}
