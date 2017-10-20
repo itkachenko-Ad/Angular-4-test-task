@@ -1,0 +1,30 @@
+header {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.header__inner {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 45px 0;
+
+  text-align: center;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+}
+
+h1 {
+  padding: 0 0 25px 0;
+
+  font-size: 52px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+p {
+  padding: 0 0 25px 0;
+
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+}

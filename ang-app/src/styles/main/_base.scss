@@ -1,0 +1,50 @@
+* {
+  -webkit-text-size-adjust: none;
+  @include clear-block-indent;
+  outline: 0;
+  word-wrap: break-word;
+}
+img {
+  border: none;
+}
+.item-list {
+  @include clear-block-indent;
+  ul {
+    @include clear-block-indent;
+  }
+
+  li {
+    list-style: none;
+    @include clear-block-indent;
+  }
+}
+
+body {
+  background: #ffffff;
+
+  font-family: $opensans_regular;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+a span {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 100%;
+  height: 100%;
+}
+
+a:active{
+  background-color: transparent;
+}
