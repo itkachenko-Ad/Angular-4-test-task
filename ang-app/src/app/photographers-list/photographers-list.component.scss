@@ -1,0 +1,39 @@
+@import '~styles/settings';
+
+li {
+  border: 1px solid #000000;
+  @include clearfix;
+  display: block;
+  position: relative;
+  margin: 0 0 25px 0;
+}
+
+.block-photographers-list__image {
+  float: left;
+  max-width: 200px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.block-photographers-list__name {
+  padding: 15px 25px;
+
+  font-family: $opensans_regular;
+  font-size: 22px;
+  text-align: right;
+  line-height: 120%;
+  color: #000000;
+}
+
+.block-photographers-list__link {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

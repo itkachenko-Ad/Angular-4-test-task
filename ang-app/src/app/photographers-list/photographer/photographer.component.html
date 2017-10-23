@@ -1,0 +1,45 @@
+<div class="block-photograph-content" *ngIf="photographContent">
+  <div class="block-photograph-nav">
+    <ul>
+      <li>
+        <a href="#" class="block-photograph-nav__left">Left</a>
+      </li>
+      <li>
+        <a href="#" class="block-photograph-nav__right">Right</a>
+      </li>
+    </ul>
+  </div>
+  <div class="block-photograph">
+    <div class="block-photograph__image">
+      <img src="{{ photographContent.photo }}" alt="photo">
+    </div>
+    <div class="block-photograph__bio">
+      <div class="block-photograph__name">
+        <h2>{{ photographContent.name }}</h2>
+      </div>
+      <div [innerHtml]="photographContent.about"></div>
+    </div>
+  </div>
+  <div class="block-gallery">
+    <div class="block-gallery__item" *ngFor="let item of photographGallery | slice:0:2; let i = index;">
+      <h3>{{ item.photo_title }}</h3>
+      <img src="{{ item.photo }}" alt="image" (click)="openPopup()">
+      <p>{{ item.photo_description }}</p>
+    </div>
+    <div class="block-gallery__show-more" *ngIf="!btnClicked">
+      <button (click)="showMoreImages()">Show more photos</button>
+    </div>
+    <div class="block-gallery__hidden-part" *ngIf="btnClicked">
+      <div class="block-gallery__item" *ngFor="let item of photographGallery | slice:2">
+        <h3>{{ item.photo_title }}</h3>
+        <img src="{{ item.photo }}" alt="image">
+        <p>{{ item.photo_description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<app-photo-popup></app-photo-popup>
+
+
+
+

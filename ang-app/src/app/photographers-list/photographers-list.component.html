@@ -1,0 +1,15 @@
+<div class="block-photographers-list">
+  <ul *ngIf="photographers">
+    <li *ngFor="let photograph of photographers">
+      <a
+        [routerLink]="photograph.id"
+        class="block-photographers-list__link"></a>
+      <div class="block-photographers-list__image">
+        <img src="{{ photograph.photo }}" alt="photo">
+      </div>
+      <div class="block-photographers-list__name">
+        <h3>{{ photograph.name }}</h3>
+      </div>
+    </li>
+  </ul>
+</div>

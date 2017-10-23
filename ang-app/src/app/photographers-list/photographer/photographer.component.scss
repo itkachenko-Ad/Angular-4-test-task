@@ -1,0 +1,90 @@
+@import '~styles/settings';
+
+.block-photograph {
+  padding-bottom: 30px;
+}
+
+.block-photograph__image {
+  float: left;
+  width: 200px;
+  margin: 0 25px 10px 0;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.block-photograph__bio {
+  font-family: $opensans_regular;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 120%;
+  color: #000000;
+
+  p {
+    padding-bottom: 20px;
+  }
+}
+
+.block-photograph__name {
+  padding-bottom: 20px;
+
+  font-family: $opensans_regular;
+  line-height: 120%;
+  color: #000000;
+
+  h2 {
+    font-size: 28px;
+    line-height: 120%;
+  }
+}
+
+.block-gallery__item {
+  padding-bottom: 35px;
+
+  h3 {
+    padding-bottom: 10px;
+    font-family: $opensans_regular;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 5px;
+  }
+
+  p {
+    font-family: $opensans_italic;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+  }
+}
+
+.block-gallery__show-more {
+  border-top: 1px solid #808080;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+
+  button {
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 4px 15px;
+    cursor: pointer;
+
+    font-family: $opensans_regular;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+  }
+}

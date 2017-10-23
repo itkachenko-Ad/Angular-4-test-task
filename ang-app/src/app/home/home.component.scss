@@ -1,0 +1,38 @@
+@import '~styles/settings';
+
+h2 {
+  padding: 0 0 30px 0;
+
+  font-family: $opensans_bold;
+  font-size: 32px;
+  text-align: center;
+  line-height: 120%;
+  color: #000000;
+}
+
+.block-text {
+  font-family: $opensans_regular;
+  font-size: 16px;
+  line-height: 120%;
+  color: #847878;
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  img {
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #3f51b5;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+

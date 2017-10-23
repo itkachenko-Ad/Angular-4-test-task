@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { SettingsService } from './shared/services/settings.service';
-import { SettingsModel } from './shared/services/settings.model';
 import { Response} from '@angular/http';
+import { GetDataService } from './shared/services/get-data.service';
+import { SettingsModel } from './shared/services/settings.model';
 
 @Component({
   selector: 'app-root',
@@ -10,13 +10,18 @@ import { Response} from '@angular/http';
 })
 export class AppComponent implements OnInit {
 
+  private settingsUrl = '/assets/data/settings.json';
+
   settings: SettingsModel;
 
-  constructor(private settingsSrv: SettingsService) { }
+  constructor(private getDataSrv: GetDataService) { }
 
   ngOnInit() {
-    this.settingsSrv.getData().subscribe(
-      (data: Response) => {this.settings = data.json()},
+    this.getDataSrv.getData(this.settingsUrl).subscribe(
+      (data: Response) => {
+        this.settings = data.json();
+        this.getDataSrv.pageSettings.next(this.settings);
+      },
       (error) => { console.log(error); }
     );
   }
