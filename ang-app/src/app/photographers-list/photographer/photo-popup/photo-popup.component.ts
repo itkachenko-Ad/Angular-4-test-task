@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-photo-popup',
@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./photo-popup.component.scss']
 })
 export class PhotoPopupComponent implements OnInit {
+  @Input() itemToOpen: object;
+  popupOpened = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  togglePopup() {
+    this.popupOpened = !this.popupOpened;
   }
 
 }

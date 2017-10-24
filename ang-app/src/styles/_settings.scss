@@ -1,7 +1,10 @@
 @import "mixins";
+@import "~include-media/dist/include-media";
 
 /* fonts */
 $opensans_regular: 'open_sansregular', Arial, Helvetica, sans-serif;
 $opensans_bold: 'open_sansbold', Arial, Helvetica, sans-serif;
 $opensans_italic: 'open_sansitalic', Arial, Helvetica, sans-serif;
 
+/* breakpoints */
+$breakpoints: (tablet: 768px, desktop: 1024px);

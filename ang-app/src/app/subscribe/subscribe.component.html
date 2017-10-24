@@ -1,0 +1,58 @@
+<h2>Subscribe</h2>
+<div class="block-subscribe-form">
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+
+    <div class="block-subscribe-form__form-item">
+      <label for="username">Name*</label>
+      <input
+        type="text"
+        id="username"
+        class="block-subscribe-form__form-text"
+        ngModel
+        #userName="ngModel"
+        name="username"
+        required>
+    </div>
+    <div class="block-subscribe-form__form-item">
+      <label for="country">Country</label>
+      <select
+        id="country"
+        class="block-subscribe-form__form-select"
+        [ngModel]="'Switzerland'"
+        name="country">
+        <option value="Russia">Russia</option>
+        <option value="Switzerland">Switzerland</option>
+        <option value="Iceland">Iceland</option>
+      </select>
+    </div>
+    <div class="block-subscribe-form__form-item">
+      <label for="category">Category of news</label>
+      <select
+        id="category"
+        class="block-subscribe-form__form-select"
+        [ngModel]="'all'"
+        name="category">
+        <option value="all">All</option>
+        <option value="any">Any</option>
+        <option value="what">All, but not Anny</option>
+      </select>
+    </div>
+    <div class="block-subscribe-form__form-item block-subscribe-form__form-checkbox">
+      <input
+        id="agree"
+        type="checkbox"
+        name="agree"
+        [ngModel]="agreeChecked"
+        (change)="onCheck()"
+      >
+      <label for="agree">
+        I agree with rules
+      </label>
+    </div>
+    <p *ngIf="showMgs" class="block-subscribe-form__error-msg">You should agree with our rules before send the form</p>
+    <p *ngIf="!userName.valid && userName.touched" class="block-subscribe-form__error-msg">Please enter your name</p>
+    <button class="block-subscribe-form__submit"
+            type="submit"
+            [disabled]="!f.valid">Submit</button>
+  </form>
+</div>

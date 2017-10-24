@@ -11,6 +11,11 @@ li {
 .block-photographers-list__image {
   float: left;
   max-width: 200px;
+  padding-right: 10px;
+
+  @include media("<desktop"){
+    max-width: 100px;
+  }
 }
 
 img {
@@ -27,6 +32,11 @@ img {
   text-align: right;
   line-height: 120%;
   color: #000000;
+
+  @include media("<desktop"){
+    padding: 15px;
+    font-size: 16px;
+  }
 }
 
 .block-photographers-list__link {

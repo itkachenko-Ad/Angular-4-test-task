@@ -2,10 +2,10 @@
   <div class="block-photograph-nav">
     <ul>
       <li>
-        <a href="#" class="block-photograph-nav__left">Left</a>
+        <a [routerLink]="'/' + prevPhotographId" class="block-photograph-nav__left">Left</a>
       </li>
       <li>
-        <a href="#" class="block-photograph-nav__right">Right</a>
+        <a [routerLink]="'/' + nextPhotographId" class="block-photograph-nav__right">Right</a>
       </li>
     </ul>
   </div>
@@ -21,9 +21,10 @@
     </div>
   </div>
   <div class="block-gallery">
-    <div class="block-gallery__item" *ngFor="let item of photographGallery | slice:0:2; let i = index;">
+    <div class="block-gallery__item" *ngFor="let item of photographGallery | slice:0:2">
       <h3>{{ item.photo_title }}</h3>
-      <img src="{{ item.photo }}" alt="image" (click)="openPopup()">
+      <img src="{{ item.photo }}" alt="image"
+           (click)="openPopup(item, $event)">
       <p>{{ item.photo_description }}</p>
     </div>
     <div class="block-gallery__show-more" *ngIf="!btnClicked">
@@ -32,14 +33,11 @@
     <div class="block-gallery__hidden-part" *ngIf="btnClicked">
       <div class="block-gallery__item" *ngFor="let item of photographGallery | slice:2">
         <h3>{{ item.photo_title }}</h3>
-        <img src="{{ item.photo }}" alt="image">
+        <img src="{{ item.photo }}" alt="image"
+             (click)="openPopup(item, $event)">
         <p>{{ item.photo_description }}</p>
       </div>
     </div>
   </div>
 </div>
-<app-photo-popup></app-photo-popup>
-
-
-
-
+<app-photo-popup [itemToOpen]="itemInfo"></app-photo-popup>

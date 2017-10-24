@@ -10,6 +10,9 @@ import { PhotographersListComponent } from './photographers-list/photographers-l
 import { AppRoutingModule } from './app-routing.module';
 import { PhotographerComponent } from './photographers-list/photographer/photographer.component';
 import { PhotoPopupComponent } from './photographers-list/photographer/photo-popup/photo-popup.component';
+import { FooterComponent } from './footer/footer.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,10 +21,13 @@ import { PhotoPopupComponent } from './photographers-list/photographer/photo-pop
     HomeComponent,
     PhotographersListComponent,
     PhotographerComponent,
-    PhotoPopupComponent
+    PhotoPopupComponent,
+    FooterComponent,
+    SubscribeComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpModule,
     AppRoutingModule
   ],

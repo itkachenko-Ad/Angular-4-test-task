@@ -9,15 +9,12 @@ import { Response} from '@angular/http';
   styleUrls: ['./photographers-list.component.scss']
 })
 export class PhotographersListComponent implements OnInit {
-
   private photographersUrl = '/assets/data/photographers.json';
-
   photographers: PhotographersListModel[] = [];
 
   constructor(private getDataSrv: GetDataService) { }
 
   ngOnInit() {
-
     this.getDataSrv.getData(this.photographersUrl).subscribe(
       (data: Response) => {
         const photographersList = data.json();
@@ -47,5 +44,4 @@ export class PhotographersListComponent implements OnInit {
     );
 
   }
-
 }

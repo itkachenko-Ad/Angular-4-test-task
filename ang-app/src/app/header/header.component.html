@@ -1,6 +1,6 @@
 <header *ngIf="settings" [ngStyle]="{'background-image': 'url(' + settings.site_header_banner + ')'}">
   <div class="header__inner">
-    <h1>{{ settings.site_title }}</h1>
+    <h1><a routerLink="/">{{ settings.site_title }}</a></h1>
     <p>{{ settings.site_subtitle }}</p>
   </div>
 </header>
