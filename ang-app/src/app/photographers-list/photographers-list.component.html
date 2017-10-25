@@ -2,7 +2,7 @@
   <ul *ngIf="photographers">
     <li *ngFor="let photograph of photographers">
       <a
-        [routerLink]="photograph.id"
+        [routerLink]="['photographers', photograph.id]"
         class="block-photographers-list__link"></a>
       <div class="block-photographers-list__image">
         <img src="{{ photograph.photo }}" alt="photo">

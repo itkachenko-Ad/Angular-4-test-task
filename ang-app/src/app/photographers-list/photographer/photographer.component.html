@@ -2,10 +2,10 @@
   <div class="block-photograph-nav">
     <ul>
       <li>
-        <a [routerLink]="'/' + prevPhotographId" class="block-photograph-nav__left">Left</a>
+        <a [routerLink]="['/photographers', prevPhotographId]" class="block-photograph-nav__left"></a>
       </li>
       <li>
-        <a [routerLink]="'/' + nextPhotographId" class="block-photograph-nav__right">Right</a>
+        <a [routerLink]="['/photographers', nextPhotographId]" class="block-photograph-nav__right"></a>
       </li>
     </ul>
   </div>

@@ -8,7 +8,8 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'subscribe', component: SubscribeComponent },
-  { path: ':id', component: PhotographerComponent }
+  { path: 'photographers/:id', component: PhotographerComponent },
+  { path: '**', redirectTo: '/' }
 ];
 
 
