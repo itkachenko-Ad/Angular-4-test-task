@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 export class SortingService {
   constructor() { }
 
-  sortArrayByWeight(arrayToSort: any) {
+  public static sortArrayByWeight(arrayToSort: any) {
     arrayToSort.sort( function(elem1, elem2) {
       if ( elem1.weight < elem2.weight ) {
         return 1;

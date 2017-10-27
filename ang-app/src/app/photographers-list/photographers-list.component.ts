@@ -13,8 +13,7 @@ export class PhotographersListComponent implements OnInit {
   private photographersUrl = '/assets/data/photographers.json';
   photographers: PhotographersListModel[] = [];
 
-  constructor(private getDataSrv: GetDataService,
-              private sortSrv: SortingService) { }
+  constructor(private getDataSrv: GetDataService) { }
 
   ngOnInit() {
     this.getDataSrv.getData(this.photographersUrl).subscribe(
@@ -32,7 +31,7 @@ export class PhotographersListComponent implements OnInit {
           });
         }
 
-        this.sortSrv.sortArrayByWeight(this.photographers);
+        SortingService.sortArrayByWeight(this.photographers);
       },
       (error) => { console.log(error); }
     );

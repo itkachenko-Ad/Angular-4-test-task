@@ -29,8 +29,7 @@ export class PhotographerComponent implements OnInit {
   prevPhotographId: number;
 
   constructor(private route: ActivatedRoute,
-              private getDataSrv: GetDataService,
-              private sortSrv: SortingService) { }
+              private getDataSrv: GetDataService) { }
 
   ngOnInit() {
     this.photograph = {
@@ -66,7 +65,7 @@ export class PhotographerComponent implements OnInit {
               this.btnClicked = true;
             }
 
-            this.sortSrv.sortArrayByWeight(this.photographGallery);
+            SortingService.sortArrayByWeight(this.photographGallery);
 
             this.currentId = this.photographContent.id;
           },
@@ -87,7 +86,7 @@ export class PhotographerComponent implements OnInit {
               });
             }
 
-            this.sortSrv.sortArrayByWeight(this.photographers);
+            SortingService.sortArrayByWeight(this.photographers);
 
             for (const index in this.photographers) {
               const photographer = this.photographers[index];
