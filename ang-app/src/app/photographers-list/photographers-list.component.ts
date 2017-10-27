@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { GetDataService } from '../shared/services/get-data.service';
 import { PhotographersListModel } from './photographers-list.model';
 import { Response} from '@angular/http';
+import { SortingService } from '../shared/services/sorting.service';
 
 @Component({
   selector: 'app-photographers-list',
@@ -12,7 +13,8 @@ export class PhotographersListComponent implements OnInit {
   private photographersUrl = '/assets/data/photographers.json';
   photographers: PhotographersListModel[] = [];
 
-  constructor(private getDataSrv: GetDataService) { }
+  constructor(private getDataSrv: GetDataService,
+              private sortSrv: SortingService) { }
 
   ngOnInit() {
     this.getDataSrv.getData(this.photographersUrl).subscribe(
@@ -30,15 +32,7 @@ export class PhotographersListComponent implements OnInit {
           });
         }
 
-        this.photographers.sort( function(photograph1, photograph2) {
-          if ( photograph1.weight < photograph2.weight ) {
-            return 1;
-          } else if ( photograph1.weight > photograph2.weight ) {
-            return -1;
-          } else {
-            return 0;
-          }
-        });
+        this.sortSrv.sortArrayByWeight(this.photographers);
       },
       (error) => { console.log(error); }
     );

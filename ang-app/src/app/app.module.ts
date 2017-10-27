@@ -13,6 +13,7 @@ import { PhotoPopupComponent } from './photographers-list/photographer/photo-pop
 import { FooterComponent } from './footer/footer.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { FormsModule } from '@angular/forms';
+import { SortingService } from './shared/services/sorting.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { FormsModule } from '@angular/forms';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [GetDataService],
+  providers: [GetDataService, SortingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

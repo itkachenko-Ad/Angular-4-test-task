@@ -4,6 +4,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { GetDataService } from '../../shared/services/get-data.service';
 import { PhotoPopupComponent } from './photo-popup/photo-popup.component';
 import { Subscription } from 'rxjs/Subscription';
+import { SortingService } from '../../shared/services/sorting.service';
 
 @Component({
   selector: 'app-photographer',
@@ -28,7 +29,8 @@ export class PhotographerComponent implements OnInit {
   prevPhotographId: number;
 
   constructor(private route: ActivatedRoute,
-              private getDataSrv: GetDataService) { }
+              private getDataSrv: GetDataService,
+              private sortSrv: SortingService) { }
 
   ngOnInit() {
     this.photograph = {
@@ -64,15 +66,7 @@ export class PhotographerComponent implements OnInit {
               this.btnClicked = true;
             }
 
-            this.photographGallery.sort( function(image1, image2) {
-              if ( image1.weight < image2.weight ) {
-                return 1;
-              } else if ( image1.weight > image2.weight ) {
-                return -1;
-              } else {
-                return 0;
-              }
-            });
+            this.sortSrv.sortArrayByWeight(this.photographGallery);
 
             this.currentId = this.photographContent.id;
           },
@@ -93,15 +87,7 @@ export class PhotographerComponent implements OnInit {
               });
             }
 
-            this.photographers.sort( function(photograph1, photograph2) {
-              if ( photograph1.weight < photograph2.weight ) {
-                return 1;
-              } else if ( photograph1.weight > photograph2.weight ) {
-                return -1;
-              } else {
-                return 0;
-              }
-            });
+            this.sortSrv.sortArrayByWeight(this.photographers);
 
             for (const index in this.photographers) {
               const photographer = this.photographers[index];
